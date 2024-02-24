@@ -1,0 +1,55 @@
+/*
+  The stylesheet for my website.
+
+  The colorscheme is mostly adapted from solarized light,
+  and you can find more info about that here:
+    https://ethanschoonover.com/solarized/
+*/
+
+body {
+  background: #eee8d5;
+  color: #657b83;
+  font-size: 1.5em;
+  font-family: "Miracode", monospace, serif;
+}
+
+/*
+  My site uses the "Miracode" monospace font.
+  You can find it here: https://github.com/IdreesInc/Miracode
+  It is licensed under the OFL-1.1 license.
+*/
+@font-face {
+  font-family: "Miracode";
+  src:
+    local("Miracode"),
+    url("/res/fonts/Miracode.ttf");
+}
+
+a {
+  color: #268bd2;
+}
+
+a:hover {
+  color: #dc322f;
+}
+
+hr {
+  border: #657b83 1px dashed;
+}
+
+#page {
+  background: #fdf6e3;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 45px;
+  border-right: #657b83 3px solid;
+  border-bottom: #657b83 3px solid;
+}
+
+b, i, strong {
+  color: #586e75;
+}
+
+.comment {
+  color: #93a1a1;
+}
