@@ -53,3 +53,7 @@ b, i, strong {
 .comment {
   color: #93a1a1;
 }
+
+li {
+  list-style: square;
+}
