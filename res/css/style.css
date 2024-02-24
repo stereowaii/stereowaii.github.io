@@ -44,6 +44,21 @@ hr {
   padding: 45px;
   border-right: #657b83 3px solid;
   border-bottom: #657b83 3px solid;
+  overflow: hidden;
+}
+
+#panel-1, #panel-2 {
+  max-width: 50%;
+}
+
+#panel-1 {
+  float: left;
+}
+
+#panel-2 {
+  overflow: hidden;
+  border-left: #657b83 2px dashed;
+  padding-left: 15px;
 }
 
 b, i, strong {
